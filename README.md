@@ -19,7 +19,7 @@ build a production kubernetes cluster
 ## you need already has [sealyun offline package] ( default is v1.12.x )
 copy it to `/data` dir 
 ```
-docker run --rm -v /data/kube1.11.1.tar.gz:/data/kube1.11.1.tar.gz -it -w /etc/ansible mxjstone/sealos:v1.12.2 bash
+docker run --rm -v /data/kube1.12.2.tar.gz:/data/kube1.12.2.tar.gz -it -w /etc/ansible mxjstone/sealos:v1.12.2 bash
 ```
 
 generate ssh public key (in docker):
